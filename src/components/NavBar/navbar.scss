@@ -1,0 +1,48 @@
+@import "../../constants/colors.scss";
+
+.navbar {
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  background-color: $baseBackgroundColor;
+  margin-right: 0;
+}
+
+.logo {
+  padding: 1rem;
+  padding-top: 0.5rem;
+  padding-left: 0;
+}
+
+.auth__group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.auth__link,
+.logo {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: $headingColor;
+}
+
+.auth__link {
+  padding: 0.5rem;
+}
+
+.auth__link:nth-child(2) {
+  margin: 0 0 0.5rem 2rem;
+  border: 1px solid $successColor;
+  border-radius: 5px;
+}
+
+.link--sign-in,
+.link--sign-out {
+  text-decoration: none;
+}
+
+.auth__link .link--sign-out {
+  color: $successColor;
+}

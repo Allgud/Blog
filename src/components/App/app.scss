@@ -1,0 +1,11 @@
+@import "../../constants/colors.scss";
+
+.app {
+  width: 100vw;
+  background-color: $backgroundColor;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
