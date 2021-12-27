@@ -1,12 +1,13 @@
 import React from "react"
 import "./app.scss"
 import NavBar from "../NavBar"
+import ArticleList from "../ArticleList"
 
 const App =()=> (
   <div className="app">
     <NavBar />
     <div className="container">
-      <h1>Content</h1>
+      <ArticleList />
     </div>
   </div>
 )
